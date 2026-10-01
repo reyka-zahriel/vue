@@ -15,12 +15,6 @@ function tutupPreview() {
 </script> 
   
 <template> 
-<div class="card"> 
-  <img :src="gambar" :alt="nama" @click="bukaPreview(gambar)" /> 
-  <h3>{{ nama }}</h3> 
-  <p>Rp {{ harga.toLocaleString('id-ID') }}</p> 
-  <button @click="tambahKeKeranjang(nama)">Tambah ke Keranjang</button> 
-</div> 
   <div class="card"> 
     <img :src="gambar" :alt="nama" @click="bukaPreview(gambar)" /> 
     <h3>{{ nama }}</h3> 
@@ -33,13 +27,6 @@ function tutupPreview() {
 </template> 
   
 <style scoped> 
-button { 
-  margin-top: 8px; 
-  padding: 6px 12px; 
-  border: none; 
-  border-radius: 6px; 
-  background: #2E75B6;
-}
 .card { 
   border: 1px solid #ddd; 
   border-radius: 10px; 
@@ -56,4 +43,4 @@ button {
   cursor: zoom-out; 
 } 
 .preview-besar { max-width: 80%; max-height: 80%; border-radius: 8px; } 
-</style> 
+</style>> 
