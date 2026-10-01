@@ -2,9 +2,9 @@
 import ProductCard from '../ProductCard.vue'
  
 const daftarProduk = [
-  { id: 1, nama: 'Kaos Sekolah', harga: 75000, gambar: '/public/poto/baju.sekolah.jpeg' },
-  { id: 2, nama: 'Topi Sekolah', harga: 35000, gambar: '/public/poto/topi.sekolah.jpeg' },
-  { id: 3, nama: 'Tas Sekolah', harga: 120000, gambar: '/public/poto/tas.sekolah.jpeg' },
+  { id: 1, nama: 'Kaos Sekolah', harga: 75000, gambar: '/poto/baju.sekolah.jpeg' },
+  { id: 2, nama: 'Topi Sekolah', harga: 35000, gambar: '/poto/topi.sekolah.jpeg' },
+  { id: 3, nama: 'Tas Sekolah', harga: 120000, gambar: '/poto/tas.sekolah.jpeg' },
 ]
 </script>
  
